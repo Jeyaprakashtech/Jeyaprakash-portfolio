@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function ScrollCue() {
   return (
     <div
-      className="absolute bottom-8 left-1/2 -translate-x-1/2
+      className="absolute bottom-20 left-1/2 -translate-x-1/2
                  flex flex-col items-center gap-2
                  select-none pointer-events-none"
       aria-hidden

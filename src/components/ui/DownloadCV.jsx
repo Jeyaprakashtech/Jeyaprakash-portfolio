@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-
 export default function DownloadCV() {
   return (
     <motion.div
@@ -11,7 +10,8 @@ export default function DownloadCV() {
       transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
     >
       <motion.a
-        href="/resume.pdf"
+        href={'/cv/jeyaprakash_resume.pdf'}
+        download={'jeyaprakash_resume.pdf'}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 px-7 h-12 w-full justify-center

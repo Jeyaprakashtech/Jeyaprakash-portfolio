@@ -25,7 +25,7 @@ export default function Hero() {
         className="container-main relative z-5 w-full
                    flex flex-col lg:flex-row
                    items-center justify-between
-                   gap-12 py-10 lg:py-28"
+                   gap-12 py-20 lg:py-34"
       >
         {/* LEFT */}
         <div className="flex-1 flex flex-col  gap-2 items-center text-center lg:items-start lg:text-left">
@@ -119,9 +119,9 @@ export default function Hero() {
             <Avatarcard />
           </div>
         </motion.div>
+      <ScrollCue />
       </motion.div>
 
-      <ScrollCue />
     </section>
   );
 }

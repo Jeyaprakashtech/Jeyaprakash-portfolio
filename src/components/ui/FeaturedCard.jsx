@@ -41,6 +41,7 @@ export default function FeaturedCard({ project }) {
           bg-[linear-gradient(135deg,#7c3aed14,#ec48990a)] bg-clip-text text-transparent z-[1]"
         >
           01
+          
         </div>
 
         {/* Content */}
@@ -185,7 +186,7 @@ export default function FeaturedCard({ project }) {
 
           {/* RIGHT */}
           <div
-            className="relative flex-1 overflow-hidden min-h-[260px]"
+            className="relative flex-1 overflow-hidden min-h-[260px] hidden sm:block"
             style={{
               clipPath: "polygon(32px 0, 100% 0, 100% 100%, 0 100%)",
             }}

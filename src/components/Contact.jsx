@@ -65,7 +65,7 @@ export default function Contact() {
 
       <ContactToast show={toastShow} />
 
-      <div className="container-main relative z-5">
+      <div className="container-main relative z-1">
         {/* Badge */}
         <SectionBadge label="◆ GET IN TOUCH" />
 

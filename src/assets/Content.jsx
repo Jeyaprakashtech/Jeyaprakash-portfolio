@@ -92,6 +92,7 @@ export const SKILLS = {
   Frontend: [
     { name: "React", color: "#00C0FF", icon:"/icons/react.png" },
     { name: "Next.js", color: "#F0EEFF", icon:"/icons/next.png" },
+    { name: "Three.js", color: "#049EF4", icon:"/icons/threejs.png" },
     { name: "JavaScript", color: "#F7DF1E", icon:"/icons/js.png" },
     { name: "TypeScript", color: "#3178C6", icon:"/icons/typescript.png" },
     { name: "Tailwind CSS", color: "#06B6D4", icon:"/icons/Tailwind.png" },
@@ -115,6 +116,7 @@ export const SKILLS = {
   Design: [
     { name: "Figma", color: "#EC4899", icon: "/icons/figma.png" },
     { name: "Adobe XD", color: "#FF61F6", icon: "/icons/xd.png" },
+    { name: "Blender", color: "#F5792A", icon: "/icons/blender.png" },
     { name: "UI/UX Design", color: "#6366F1", icon:"/icons/uiux.png" },
     { name: "Design Systems", color: "#06B6D4", icon:"/icons/sd.png" },
     { name: "Prototyping", color: "#7C3AED", icon:"/icons/prototyping.png" },
